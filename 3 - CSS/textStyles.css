@@ -1,0 +1,33 @@
+
+.inter {
+  font-family: "Inter"; /* get name from imported HTML link */
+}
+
+.special-text {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;  /* default is 16px */
+  line-height: 1.5; /* default is 1.2 */
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.black-text {
+  color: black;
+}
+
+.blue-text {
+  color: rgb(0, 0, 255);  /* (r, g, b), values are 0 - 255 */
+}
+
+.red-text {
+  color: #ff0000;  /* hexadecimal color code */
+}
+
+.centered-text {
+  text-align: center; 
+}
+
+.right-aligned-text {
+  text-align: right; 
+}

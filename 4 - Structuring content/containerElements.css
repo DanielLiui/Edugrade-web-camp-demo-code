@@ -1,0 +1,86 @@
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(20, 20, 20);
+
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+#nav-logo {
+  width: 50px; /* height automatically determined from width:height ratio */
+  margin-top: 10px; margin-bottom: 5px; 
+}
+
+#nav-links a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#nav-links {
+  margin-bottom: 15px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+  color: white;  /* text color */
+  font-family: "Inter";
+  margin: 0;
+
+  position: relative;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+#two-img-row {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 0;
+}
+
+#two-img-row img {
+  margin: 0;
+  width: calc(100vw / 2);  /* use calc() for arithmetic */
+}
+
+#end-img-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+#end-img-row img {
+  margin: 10px;
+  width: calc(100vw / 3);
+}
+
+footer {
+  border-top: 1px solid white;
+
+  position: absolute; /* position footer relative to parent element with position property (body) */
+  bottom: 0;
+  width: 100vw;
+  padding: 20px;
+}
+
+footer i {
+  color: #ffffff;
+  font-size: 14px;  /* icons use font size */
+  margin: 10px;
+}
+
+footer p {
+  font-size: 14px;
+}

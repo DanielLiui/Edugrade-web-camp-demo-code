@@ -1,0 +1,11 @@
+#blue-text, .subtitle {
+  color: #001692;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}

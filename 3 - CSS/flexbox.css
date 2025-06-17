@@ -1,0 +1,66 @@
+
+body {
+  margin: 0px;
+  font-family: 'Inter';
+  display: flex; flex-direction: column;
+  align-items: center; /* align along column */
+  width: 100vw;
+}
+
+p {
+  margin: 10px; 
+  padding: 0px;
+}
+
+nav {
+  display: flex; flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  background-color: #06001c;
+
+  justify-content: space-between;
+  align-items: center; /* align along column */
+}
+
+#logo {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.nav-brand {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+}
+
+#links {
+  margin-right: 20px;
+}
+
+#links a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+}
+
+#profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#name {
+  font-size: 40px;
+  font-family: 'Lobster';
+}
+
+
