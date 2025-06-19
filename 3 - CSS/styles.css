@@ -3,7 +3,7 @@
 }
 
 .subtitle {
-  font-weight: bold;
+  font-weight: bold; /* comment */
 }
 
 .italic {
