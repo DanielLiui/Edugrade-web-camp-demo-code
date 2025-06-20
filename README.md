@@ -1,5 +1,5 @@
 ## Premade demo code
-This is demo code I prepared before class. For the live demo code, go to https://github.com/DanielLiui/Edugrade-web-camp-live-demos <br/>
+This is demo code I prepared before class. For the live demo code, go to https://github.com/DanielLiui/Edugrade-web-camp-live-demos <br/> <br/>
 
 ## Downloading folders
 On Github, you can only download the root folder containing all the subfolders. 
