@@ -1,0 +1,19 @@
+
+.navbar {
+  padding-left: 20px; padding-right: 40px;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.brand {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}

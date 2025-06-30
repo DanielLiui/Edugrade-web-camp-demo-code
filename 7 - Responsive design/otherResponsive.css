@@ -1,0 +1,43 @@
+
+:root {
+  --content-width: 800px;
+}
+
+/* apply styles for all screen sizes */
+#intro-sect {
+  display: flex;
+  flex-direction: column;
+  /* ... */
+}
+
+@media (min-width: 700px) {
+/* apply styles for screen sizes with a minimum width of 700px (so 700px and larger) */
+
+  #intro-sect {
+    flex-direction: row;
+    align-items: center;
+    /* ... */
+  }
+}
+
+
+@media (max-width: 700px) {
+/* apply styles for screen sizes with a max width of 700px (so 700px and lower) */
+
+  #intro-sect {
+    flex-direction: row;
+    align-items: center;
+    /* ... */
+  }
+}
+
+@media (min-width: 450px) and (max-width: 1000px) {
+/* apply styles for screen sizes between 450 and 1000px */
+
+  #intro-sect {
+    width: calc(var(--content-width) - 100px);
+  }
+}
+
+
+

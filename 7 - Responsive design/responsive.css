@@ -1,0 +1,152 @@
+
+#body-div {
+  max-width: 800px;
+  margin: 0 auto;  
+  /* 0 sets top and bottom margins to 0, auto sets the left and right margins to be the same */
+}
+
+p {
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+#intro-sect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+  margin-bottom: 50px
+}
+
+#profile-pic {
+  width: 200px;
+  height: auto;
+  border-radius: 135px; /* half the width for a perfect circle */
+}
+
+#intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 40px; padding-right: 40px;
+}
+
+#name {
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  margin: 10px 0 10px 0;
+}
+
+#profile-description {
+  font-family: "Inter";
+}
+
+@media (min-width: 700px) {
+/* apply styles for screen sizes with a minimum width of 700px (so 700px and larger) */
+
+  #intro-sect {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #profile-pic {
+    margin: 20px;
+  }
+
+  #intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    width: 50%;
+    padding: 0;
+  }
+}
+
+.hr-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+hr { /* horizontal line */
+  color: rgb(73, 73, 73);
+  width: 80%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  height: 6px;
+}
+
+
+.sect-title {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+}
+
+.subtitle {
+  color: #B80090;
+  font-size: 18px;
+}
+
+#project-sect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0 20px 0;
+  width: 60%;
+}
+
+.proj-img {
+  border-radius: 20px;
+  width: 100%;
+  aspect-ratio: 4/3;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.proj-text {
+  margin: 5px 0 15px 0;
+}
+
+.proj-content {
+  background: transparent;
+}
+
+.tools-p {
+  margin: 15px 0 15px 0;
+}
+
+
+@media (min-width: 700px) {
+  #project-sect {
+    text-align: start;
+  }
+  .project {
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+  }
+  .proj-img {
+    margin: 0 20px 0 0;
+    width: 50%;
+    max-width: 300px;
+  }
+  .proj-content {
+    margin-left: 10px;
+    width: 50%;
+    text-align: start;
+  }
+}
