@@ -1,0 +1,44 @@
+body {
+  width: 100vw;
+  min-height: 100vh;
+
+  position: relative;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+#button-panel {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(209, 209, 209);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mic-button {
+  width: 50px; height: 50px;
+  border-radius: 50%;
+  border: none;
+}
+
+#mic-button {
+  background-color: white;
+}
+
+#stop-record-button {
+  background-color: rgb(255, 0, 0);
+}
+
+.fa-microphone {
+  font-size: 35px;
+}
+
+button {
+  margin: 10px 0 10px 0;
+}
